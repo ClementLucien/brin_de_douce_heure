@@ -1,5 +1,23 @@
 .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #353434;
   width: 100vw;
   height: 80px;
+}
+
+.fournisseur-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+  text-align: center;
+  p{
+    margin: 0;
+    color: #FFF;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+  }
 }

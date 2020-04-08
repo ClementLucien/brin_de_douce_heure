@@ -9,6 +9,14 @@ body{
   background-color: #fff;
 }
 
+h2{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(138,166,125);
+  text-decoration: underline;
+}
+
 .page-container{
   height: 1858px;
   width: 62%;
@@ -59,4 +67,97 @@ body{
   height: 100%;
   margin-bottom: 10px;
   box-shadow: 5px 5px 0 rgba(138, 166, 125, 0.7)
+}
+
+.text-slogan{
+  h3{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+.presentation{
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  width: 99%;
+  height: auto;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.text-infos{
+  display: flex;
+  justify-content: space-between;
+}
+
+.text{
+  margin-top: 20px;
+  p{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+}
+
+.infos-home{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 0 7px rgb(138,166,125);
+  width: 350px;
+  height: auto;
+  padding: 25px;
+}
+
+.adresse{
+  p{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  i{
+    color: blue;
+  }
+}
+.telephone{
+  p{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  i{
+    color: #b73029;
+  }
+}
+
+.facebook-link{
+  p{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  a{
+    color: #FFB6D4;
+  }
+
+  i{
+    color: #3c599b;
+  }
+}
+
+.horaire{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  p{
+    font-family:  'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+  }
 }

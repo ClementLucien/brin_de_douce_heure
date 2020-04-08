@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BrinDeDouceHeure</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
+    <%= javascript_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
+
+  </head>
+
+  <body>
+    <%= render 'shared/_header' %>
+    <%= yield %>
+
+    <div class="footer">
+
+    </div>
+  </body>
+</html>

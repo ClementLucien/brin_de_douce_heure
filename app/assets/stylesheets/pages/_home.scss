@@ -1,0 +1,62 @@
+// Specific CSS for your home-page
+body{
+  display: flex;
+  margin: none;
+  padding: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.page-container{
+  height: 1858px;
+  width: 62%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.logo-content{
+  width: 100%;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo{
+  background-image: url('/assets/logo-fond-blanc.png');
+  background-size: cover;
+  height: 100%;
+  width: 522px;
+}
+
+.image-home{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+  background-image: url('/assets/main2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 600px;
+  height: 100%;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 0 rgba(138, 166, 125, 0.7)
+}

@@ -1,0 +1,27 @@
+.nav-bar{
+  font-family:  'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #FFB6D4;
+  border-radius: 5px;
+  h6{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  overflow: hidden;
+}
+
+.onglet{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.onglet:hover{
+  background-color: rgba(250, 151, 192, 0.5);
+}

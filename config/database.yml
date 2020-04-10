@@ -80,6 +80,4 @@ test:
 #
 production:
   <<: *default
-  database: brin_de_douce_heure_production
-  username: brin_de_douce_heure
-  password: <%= ENV['BRIN_DE_DOUCE_HEURE_DATABASE_PASSWORD'] %>
+  url: <%= ENV['POSTGRESQL_ADDON_URI'] %>

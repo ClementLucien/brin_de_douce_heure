@@ -1,0 +1,48 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #353434;
+  width: 100vw;
+  height: 120px;
+  margin: 0;
+  margin-top: 20px;
+  padding: 5px;
+    p{
+    margin: 0;
+    color: #FFF;
+    font-family:  'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  a{
+    color: #FFB6D4
+  }
+}
+
+.fournisseur-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.reseaux-footer{
+  a{
+    font-weight: 500;
+  }
+}
+
+.telephone-footer{
+  i{
+    color: #b73029;
+  }
+}
+
+.adresse-footer{
+  i{
+    color: #b73029;
+  }
+}

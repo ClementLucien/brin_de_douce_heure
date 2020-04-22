@@ -1,11 +1,15 @@
 .contact-page{
   width: 90vw;
-  height: 76vh;
+  height: 78vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   padding: 40px;
+}
+
+.contact{
+  margin-top: 60px;
 }
 
 .content-contact{
@@ -19,8 +23,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
-  height: 400px;
+  width: 35%;
+  height: 650px;
 }
 
 .contact-content{
@@ -28,9 +32,11 @@
   flex-direction: column;
   justify-content: flex-start;
   width: 60%;
+  margin-bottom: 40px;
 }
 
 .title-page{
   text-align: center;
+  margin-bottom: 20px;
 }
 

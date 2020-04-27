@@ -1,0 +1,19 @@
+.offres-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 62%;
+  height: 78vh;
+}
+
+.offre-title{
+  text-align: center;
+}
+
+.image-evenement{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:100%;
+  height: auto;
+}

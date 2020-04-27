@@ -10,7 +10,6 @@ body{
   background-color: #fff;
   padding: none;
   margin: none;
-  position: relative;
 }
 
 h2{
@@ -21,8 +20,16 @@ h2{
   text-decoration: underline;
 }
 
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-weight: 400;
+  font-size: 45px;
+  color: rgb(138,166,125);
+  text-decoration: underline;
+}
+
 .page-container{
-  height: 1858px;
+  height: 2000px;
   width: 62%;
   background-color: #fff;
   display: flex;

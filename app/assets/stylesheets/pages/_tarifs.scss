@@ -1,0 +1,19 @@
+.tarifs-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 62%;
+  height: 78vh;
+}
+
+.tarifs-title{
+  text-align: center;
+}
+
+.image-tarifs{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width:auto;
+  height: auto;
+}

@@ -1,1 +1,37 @@
-tarifs
+<div class="tarifs-container">
+  <div class="tarifs-title">
+    <h2>Préstations et tarifs</h2>
+  </div>
+
+  <div class="nav-bar-container">
+    <div class="nav-bar">
+
+      <%= link_to "/" do %>
+        <div class="onglet-home">
+          <h6>Accueil</h6>
+        </div>
+      <% end %>
+
+      <%= link_to "/pages/offres" do %>
+        <div class="onglet-offres">
+          <h6>Offres & Évènements</h6>
+        </div>
+      <% end %>
+
+      <%= link_to "/pages/tarifs" do %>
+        <div class="onglet-tarifs">
+          <h6>Tarifs</h6>
+        </div>
+      <% end %>
+
+      <%= link_to "/pages/contact" do %>
+        <div class="onglet-contact">
+          <h6>Contact & Accès</h6>
+        </div>
+      <% end %>
+    </div>
+  </div>
+  <div class="image-tarifs">
+    <%= image_tag "grille-tarif.png", style: "width:90%;" %>
+  </div>
+</div>

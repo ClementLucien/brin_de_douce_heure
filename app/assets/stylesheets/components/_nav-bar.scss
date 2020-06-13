@@ -23,8 +23,9 @@
     width: 100%;
     text-align: center;
   }
+
+  a:hover{
+    background-color: rgba(250, 151, 192, 0.5);
+  }
 }
 
-a:hover{
-  background-color: rgba(250, 151, 192, 0.5);
-}
